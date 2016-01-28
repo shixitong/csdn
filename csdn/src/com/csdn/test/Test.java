@@ -2,10 +2,18 @@ package com.csdn.test;
 
 public class Test {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		System.out.println("Hello GIT");
-	}
+	 private  int a = 2;
+	 
+	    public int getA() {
+	        return a;
+	    }
+	 
+	    public static void main(String[] args) {
+	         
+	        Test t = new Test();
+	        System.out.println(t.a);
+	        System.out.println(t.getA());
+	        //System.out.println(a);//´íÎó
+	    }
 
 }
